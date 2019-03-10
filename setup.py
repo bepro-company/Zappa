@@ -24,7 +24,7 @@ with open(os.path.join(os.path.dirname(__file__), 'test_requirements.txt')) as f
     test_required = f.read().splitlines()
 
 setup(
-    name='zappa',
+    name='zappa-sebatyler',
     version=__version__,
     packages=['zappa'],
     install_requires=required,
@@ -35,9 +35,9 @@ setup(
     description='Server-less Python Web Services for AWS Lambda and API Gateway',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/Miserlou/Zappa',
-    author='Rich Jones',
-    author_email='rich@openwatch.net',
+    url='https://github.com/sebatyler/Zappa',
+    author='Seba Kim',
+    author_email='sebatyler@gmail.com',
     entry_points={
         'console_scripts': [
             'zappa=zappa.cli:handle',
